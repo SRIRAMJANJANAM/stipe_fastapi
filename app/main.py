@@ -4,3 +4,7 @@ from app.routes import router
 app = FastAPI(title="E-Commerce API")
 
 app.include_router(router)
+
+
+
+#uvicorn app.main:app --reload
